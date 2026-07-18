@@ -204,5 +204,5 @@ export const zh = {
   },
 } as const;
 
-export type Messages = typeof zh;
+export type Messages = DeepString<typeof zh>;
 
